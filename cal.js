@@ -25,13 +25,14 @@ const calcy = () =>{
   }
 
   if(perc >= 39.5){
-    document.getElementById('showData').innerHTML = ` Out of 400 your total is  ${totalGrades} and percentage is ${perc}%. <br> Your grade is ${grades}.  `
+    document.getElementById('showData').innerHTML = ` Out of 500 your total is  ${totalGrades} and percentage is ${perc}%. <br> Your grade is ${grades}.  `
     document.getElementById('result').innerHTML = ` PASS `
   }
   else{
-    document.getElementById('showData').innerHTML = ` Out of 400 your total is  ${totalGrades} and percentage is ${perc}%. <br> Your grade is ${grades}. `
+    document.getElementById('showData').innerHTML = ` Out of 500 your total is  ${totalGrades} and percentage is ${perc}%. <br> Your grade is ${grades}. `
     document.getElementById('result').innerHTML = ` FAIL `
   }
 
   
+
 }
